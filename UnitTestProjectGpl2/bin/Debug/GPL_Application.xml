@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GPL_Application</name>
+    </assembly>
+    <members>
+        <member name="F:GPL_Application.addFile.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GPL_Application.addFile.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GPL_Application.addFile.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:GPL_Application.CommandParser.runCondStatement(System.String)">
+            <summary>
+            THIS METHOD IS HELPS TO CHECK THE BOOLEAN STATUS OF DIFFERENT METHODS LIKE WHILELOOP AND IFVALIDATION AFTER GETTING THE TEXT FROM  TEXT BOX.
+            </summary>
+            <param name="Code">THIS CODE PARAMETERS HOLD THE TEXTS WHICH COME FROM THE USERS</param>
+        </member>
+        <member name="M:GPL_Application.CommandParser.execute(System.String)">
+            <summary>
+            THIS METHOD IS MADE TO READ CONDITIONAL STATEMTS WHICH IS ONLY WRITTEN IN WHILE LOOP AND MUTIPLE IF STATEMENTS.
+            </summary>
+            <param name="oneLineStatements">ONELINESTATEMENTS PARAMETERS HOLD THE STATEMENTS WHICH IS FETCHED FROM THE METHODS WRITTEN FOR WHILE LOOP AND IF STATEMENTS</param>
+        </member>
+        <member name="M:GPL_Application.CommandParser.variableValidation(System.String)">
+            <summary>
+            This method is made to validate the variables assigned by the users and also to add the variable and its value in dictionary.
+            </summary>
+            <param name="Variables">Variable parameters is to store if the variable is passed in this parameters.</param>
+            <returns></returns>
+        </member>
+        <member name="M:GPL_Application.CommandParser.Conversion(System.String)">
+            <summary>
+            THIS FUNCTION IS TO VERIFY WHETHER THE GIVEN PARAMETER IS VARIABLE OR INTEGER VALUE AND IF THE PARAMETER IS     VARIABLE THEN EXTRACT ITS VALUES FROM DICTIONARY.
+            </summary>
+            <param name="codes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GPL_Application.CommandParser.AirthmeticOperation(System.String,System.String,System.String)">
+            <summary>
+            This method is to complete the airthmetic operation.
+            </summary>
+            <param name="Left_ope"></param>
+            <param name="right_ope"></param>
+            <param name="Operation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GPL_Application.CommandParser.WhileLoop(System.String)">
+            <summary>
+            This 
+            </summary>
+            <param name="programCodes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GPL_Application.CommandParser.ifValidation(System.String)">
+            <summary>
+            This method is for single and multiple if with validation parts.
+            </summary>
+            <param name="programCodes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GPL_Application.Method.Operate_Method(System.String,System.Boolean,System.String)">
+            <summary>
+            Performs action for method to operate
+            </summary>
+            <param name="text">contains parameters, statements from within method</param>
+            <returns></returns>
+        </member>
+        <member name="T:GPL_Application.Form1">
+            <summary>
+            This Class is to make normal GPL application.
+            </summary>
+        </member>
+        <member name="M:GPL_Application.Form1.#ctor">
+            <summary>
+            Class to make simple GPL Application
+            </summary>
+        </member>
+        <member name="M:GPL_Application.Form1.richTextBox_Enter(System.Object,System.EventArgs)">
+            <summary>
+            This method is made made to focus the running tab page to only execute that particular texxt box code.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GPL_Application.Form1.openTool(System.Object,System.EventArgs)">
+            <summary>
+            This openTool function is designed to open a pre-coded file in a file browser.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GPL_Application.Form1.exitTool(System.Object,System.EventArgs)">
+            <summary>
+            This method is made to exit the application.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GPL_Application.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            This method is made to open new form for new file.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GPL_Application.Form1.fullScreenToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            This method is made to maximize the screen of code box.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GPL_Application.Form1.getLineTextOfCode(System.Windows.Forms.RichTextBox)">
+            <summary>
+            This method is made to read every code line by line from coding area.
+            </summary>
+            <param name="rtb"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GPL_Application.Form1.getLineTextOfTerminal">
+            <summary>
+            This method is to get the text which is written in terminal text box.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GPL_Application.Form1.RunCommand(System.String,System.String)">
+            <summary>
+            Methods to run commands.
+            </summary>
+            <param name="cp1"></param>
+        </member>
+        <member name="M:GPL_Application.Form1.escapeNewLine">
+            <summary>
+            This method is made to read the each and every line which is written in text box.
+            </summary>
+        </member>
+        <member name="M:GPL_Application.Form1.clearAll">
+            <summary>
+            This method is to clear all previous errors and output everytime when start button clicked or run command is executed
+            </summary>
+        </member>
+        <member name="M:GPL_Application.Form1.chooseColor(System.String)">
+            <summary>
+            This chooseColor class is simply to choose colors for different shapes to draw and fill with it.
+            </summary>
+            <param name="penColor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GPL_Application.Form1.Reset_Click(System.Object,System.EventArgs)">
+            <summary>
+            This is methodis made to clear the drawing area.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GPL_Application.Form1.PageAddButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            This method is made to add neew tab page.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:GPL_Application.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GPL_Application.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GPL_Application.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:GPL_Application.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:GPL_Application.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:GPL_Application.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:GPL_Application.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

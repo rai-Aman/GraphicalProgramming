@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\GPL_Application\GPL_Application\bin\Debug\GPL_Application.exe.config
+C:\Users\user\source\repos\GPL_Application\GPL_Application\bin\Debug\GPL_Application.exe
+C:\Users\user\source\repos\GPL_Application\GPL_Application\bin\Debug\GPL_Application.pdb
+C:\Users\user\source\repos\GPL_Application\GPL_Application\obj\Debug\GPL_Application.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\GPL_Application\GPL_Application\obj\Debug\GPL_Application.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\GPL_Application\GPL_Application\obj\Debug\GPL_Application.Form1.resources
+C:\Users\user\source\repos\GPL_Application\GPL_Application\obj\Debug\GPL_Application.Properties.Resources.resources
+C:\Users\user\source\repos\GPL_Application\GPL_Application\obj\Debug\GPL_Application.csproj.GenerateResource.cache
+C:\Users\user\source\repos\GPL_Application\GPL_Application\obj\Debug\GPL_Application.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\GPL_Application\GPL_Application\obj\Debug\GPL_Application.exe
+C:\Users\user\source\repos\GPL_Application\GPL_Application\obj\Debug\GPL_Application.pdb
+C:\Users\user\source\repos\GPL_Application\GPL_Application\obj\Debug\GPL_Application.addFile.resources
+C:\Users\user\source\repos\GPL_Application\GPL_Application\bin\Debug\GPL_Application.xml
